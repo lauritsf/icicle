@@ -1,0 +1,29 @@
+{
+  "fields": ["hps", "curves", "fidelities"],
+  "tasks": {
+    "taskset/FixedTextRNNClassification_imdb_patch128_LSTM128_avg_bs64-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "274e9d96c26810cb8f2721cca74c0836c7784a0d25a8634c80bf528d31bb0ecc"},
+    "taskset/FixedTextRNNClassification_imdb_patch128_LSTM128_avg_bs64-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "006ac626d893afd7c8334bfed1251f2abc2c72821dc2210db1bf73b36ad2e732"},
+    "taskset/FixedTextRNNClassification_imdb_patch128_LSTM128_bs64-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "3e9183679d5bac5effd85ee2de7ed563a01662c203d8bd973a8a85d5a951560c"},
+    "taskset/FixedTextRNNClassification_imdb_patch128_LSTM128_bs64-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "4563b5215310efd5fdaa26688ea9a27f0ee6e3e33308e9d3776680560a2d6d96"},
+    "taskset/FixedTextRNNClassification_imdb_patch128_LSTM128_embed128_bs64-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "ac14934ddec841ceb7d8bdcbbf6500f0dabc452056a94de6fefefd1764eb6151"},
+    "taskset/FixedTextRNNClassification_imdb_patch128_LSTM128_embed128_bs64-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "7f3d3d6265ddf16936102d4c3da5f657f00fa71b617de876f7c5b5221695ac46"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_GRU128_bs128-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "924669af2a7fddb238c5eab31adf03bc00816054274bcfcce901aa78f7863e33"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_GRU128_bs128-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "fda983bec28b343cf4f09bf201d1a044bcf4bc9653e69dd5fd28e93108154844"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_GRU64_avg_bs128-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "25a0126c4805530a8433c44862fd09d54e43f07707f749f083570a4458ad54ec"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_GRU64_avg_bs128-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "09de6e8846353f629faf211dd7907b9c89f9c823f0ed0dd0dfc07dd6a3a7bdd9"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_IRNN64_relu_avg_bs128-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "6db7b91ea3df4187f712132dfe57ab65ccf8081d09be4c771206064978a13e8d"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_IRNN64_relu_avg_bs128-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "e0f1bc2685c6e81bbcda5aee68d82230b3cc642e7243cf4989f0977ccb0c113b"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_IRNN64_relu_last_bs128-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "8e352e6c9e57975bc93e7ee4a06a6651732ece967a9fbf7db3063524418f5f7d"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_IRNN64_relu_last_bs128-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "aa16b9e657208d8f2d0aed6a4710526253f2ab17ea2038a39bd7ff5c318ce748"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_LSTM128_E128_bs128-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "e42a83496aa9f539129b3fbe5607023ae398082639aa78944a9761ad83905a74"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_LSTM128_E128_bs128-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "037f7a2a7d2493728b90161c7b509bda68beda5f516a9a41fb87f36f95e37425"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_LSTM128_bs128-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "85631f54c479a328158c09f1df0886e2a5c3f0d257da213475f2dcb3171a4c16"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_LSTM128_bs128-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "330bac4e28caa183e010f06aaf4819b35098fb87a13b6f6c4280bc047ce01d22"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_VRNN128_tanh_bs128-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "5542a3dea971fdd36a41cf70091b8d5dd1ec0d7e22176f792173c79b90481aa8"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_VRNN128_tanh_bs128-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "4fbb29600960932540bb5ec9d5081ca3114df302c20d7c01e129cca00d58bb2d"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_VRNN64_relu_avg_bs128-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "6eb0118f15c13a99557149a20d82e07c56f885dff492b608f40d9fd4e977338f"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_VRNN64_relu_avg_bs128-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "7ba3bd1f21ccd123fdc22b2557316d8264febe655268ee24e193c256a6017443"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_VRNN64_tanh_avg_bs128-adam4p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 4, "fidelities": 50, "sha256": "36bcb1b8498062b9e9b0f53718ee08a9404c76b4e71957c458c07538418b6735"},
+    "taskset/FixedTextRNNClassification_imdb_patch32_VRNN64_tanh_avg_bs128-adam8p_wide_grid_1k": {"configurations": 1000, "hyperparameters": 8, "fidelities": 50, "sha256": "9f9d1ae5cdb14d6f74e4d6f4432988771a437999858530e665ce111409daee5e"}
+  }
+}

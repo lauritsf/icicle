@@ -1,0 +1,67 @@
+[project]
+name = "icicle"
+version = "0.0.1"
+description = "ICICLE — In-Context Inference for Curve-Learning Extrapolation"
+requires-python = ">=3.12"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES"]
+
+# Install accelerator frameworks separately. LUMI training uses
+# tools/lumi/setup_env.sh and its pinned ROCm environment.
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+experiments = ["pandas>=2.2", "pyarrow>=14", "matplotlib>=3.8", "pillow>=10"]
+dev = ["ruff>=0.9", "pytest"]
+ray = ["ray[tune]", "onnxruntime>=1.20,<2"]
+serving = ["onnxruntime>=1.20,<2"]
+export = ["onnx>=1.17,<2", "safetensors>=0.4,<1"]
+train = [
+    "jax>=0.11.0,<0.11.3,!=0.11.1",
+    "flax>=0.12.8,<0.12.11",
+    "optax==0.2.8",
+    "orbax-checkpoint==0.12.2",
+    "chex==0.1.92",
+    "jaxtyping==0.3.11",
+    "tyro==1.0.15",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+# Install the runtime and JAX implementation; reproduction runs from source.
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["icicle", "icicle.*", "icicle_jax", "icicle_jax.*"]
+
+[tool.setuptools.package-data]
+"icicle" = ["models/*.onnx", "models/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--import-mode=importlib"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "UP", "B", "SIM", "N", "D"]
+ignore = [
+    "SIM108",  # ternary operator, often less readable
+    "D1",      # missing docstrings, enforce incrementally
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]        # no docstrings required in tests
+"experiments/**" = ["D"]  # no docstrings required in experiment runners

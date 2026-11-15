@@ -1,0 +1,33 @@
+{
+  "fields": ["hps", "curves", "fidelities"],
+  "tasks": {
+    "pd1/cifar100-wide_resnet-2048": {"configurations": 396, "hyperparameters": 4, "fidelities": 5, "sha256": "41cccfc47d6c208b4232f0d3f3268849537412f03d2af3e896daf19c57bf58db"},
+    "pd1/cifar100-wide_resnet-256": {"configurations": 388, "hyperparameters": 4, "fidelities": 36, "sha256": "199a863189d8e4188a9298d00cb102b18c6091ac203467e8c60387e9a9e787a9"},
+    "pd1/cifar10-wide_resnet-2048": {"configurations": 396, "hyperparameters": 4, "fidelities": 7, "sha256": "26e58d2461bc013806a15c11f41c6db8ef24b5bd89263cb870d4690c5cb54d18"},
+    "pd1/cifar10-wide_resnet-256": {"configurations": 388, "hyperparameters": 4, "fidelities": 53, "sha256": "f292537ba45cc383393e57cdbfeb02deea4ac23f350a808d5c954958f8b62bbc"},
+    "pd1/fashion_mnist-simple_cnn-2048": {"configurations": 339, "hyperparameters": 4, "fidelities": 6, "sha256": "fe38ded52765cbf05b01896745bcc8093085f2d11111c4c354ee3f4ad30ce72c"},
+    "pd1/fashion_mnist-simple_cnn-256": {"configurations": 320, "hyperparameters": 4, "fidelities": 44, "sha256": "e6f4e9115061cbc2ad32929934d94eb7883623f6d6eb373d2f76267fd9006202"},
+    "pd1/lm1b-transformer-2048": {"configurations": 251, "hyperparameters": 4, "fidelities": 38, "sha256": "2cdad493e01b1a10569b228b62ec5a43b2cebb9f75a1a66fa961087f293094f9"},
+    "pd1/mnist-simple_cnn-2048": {"configurations": 335, "hyperparameters": 4, "fidelities": 7, "sha256": "13f430c55972a89f479b24ab4a67638e73cb4184e551e9262aa836269a779726"},
+    "pd1/mnist-simple_cnn-256": {"configurations": 336, "hyperparameters": 4, "fidelities": 49, "sha256": "95f7a13ca8bb9481ea7dc8263974bb15c8e87b19fd78916a017ae4dab116ece9"},
+    "pd1/svhn_no_extra-wide_resnet-1024": {"configurations": 390, "hyperparameters": 4, "fidelities": 13, "sha256": "777cd2fa254ccd02bc2907fd2b705b2ee90b62a440df578a0119dc17e9e9bc14"},
+    "pd1/svhn_no_extra-wide_resnet-256": {"configurations": 389, "hyperparameters": 4, "fidelities": 52, "sha256": "a6b936da077bb6a1c6efd321fbddb6a5ba549e1e12c75dcdbf0294ca532ad973"},
+    "pd1/uniref50-transformer-128": {"configurations": 254, "hyperparameters": 4, "fidelities": 22, "sha256": "47659c9ffd0f95698aead007fd87b4b00f5bb57d2054ebff3d95dc9d6c703ea5"},
+    "pd1/imagenet-resnet-256-1": {"configurations": 369, "hyperparameters": 4, "fidelities": 501, "sha256": "5182a2165fb138d86e02579d34e7b501bf8581b16267cc078ea6ac50c1c92145"},
+    "pd1/imagenet-resnet-256-2": {"configurations": 369, "hyperparameters": 4, "fidelities": 250, "sha256": "ba790211877c10213daba5a9b1982df7e846bb77ff857931d69ea3fb8820ff04"},
+    "pd1/imagenet-resnet-256-5": {"configurations": 369, "hyperparameters": 4, "fidelities": 100, "sha256": "aef96a7f4f9ad78f6e1e0d7baf5a7ef419ae92df010d15fe62c23d08fcd32871"},
+    "pd1/imagenet-resnet-256-10": {"configurations": 369, "hyperparameters": 4, "fidelities": 50, "sha256": "ca7f2bb096e51a7bfc659a59cdefbaf9d28a2a8135b85fb61efd663909c435c8"},
+    "pd1/imagenet-resnet-512-1": {"configurations": 380, "hyperparameters": 4, "fidelities": 251, "sha256": "f8fc08b9c234f8413c189dbaf56a214c55e22e5b3c82d29cacf9ffb5d3d843a5"},
+    "pd1/imagenet-resnet-512-2": {"configurations": 380, "hyperparameters": 4, "fidelities": 125, "sha256": "9b11b18b591225c773e15dc6ee0c6da2363894fad0bd91b4d773b0bec89445df"},
+    "pd1/imagenet-resnet-512-5": {"configurations": 380, "hyperparameters": 4, "fidelities": 50, "sha256": "6ffaeeeba2129cd6cc35c4e6208ff47c38607353e2ae9994942021ef5e667a43"},
+    "pd1/imagenet-resnet-512-10": {"configurations": 380, "hyperparameters": 4, "fidelities": 25, "sha256": "5b9f5ab36dd1587d5f0a2fd30816043418db6f9088ff65a8c62f9072cf1b299d"},
+    "pd1/imagenet-resnet-1024-1": {"configurations": 98, "hyperparameters": 4, "fidelities": 126, "sha256": "bf30bc623fed4add6dd188176857b76e4d3225e67042e0f9dcd1a5107f4a5abc"},
+    "pd1/imagenet-resnet-1024-2": {"configurations": 98, "hyperparameters": 4, "fidelities": 62, "sha256": "beea9ba3b1a7d5562108dfed1e5cfc0c6d1d64a8ce803df68826744c177f2a7a"},
+    "pd1/imagenet-resnet-1024-5": {"configurations": 98, "hyperparameters": 4, "fidelities": 25, "sha256": "361cca2246c707137234797615b9df871544c1526071aecf67221b72803be23c"},
+    "pd1/imagenet-resnet-1024-10": {"configurations": 98, "hyperparameters": 4, "fidelities": 12, "sha256": "c250da25fa1230c760a418f549ea647e51d0d133d0535f4562934c39e9d2173c"},
+    "pd1/translate_wmt-xformer_translate-64-1": {"configurations": 258, "hyperparameters": 4, "fidelities": 1414, "sha256": "bee320d7965f041c95a0fd4a6a50f0d2bc1bfe24aba738e54cef5c86be428771"},
+    "pd1/translate_wmt-xformer_translate-64-2": {"configurations": 258, "hyperparameters": 4, "fidelities": 706, "sha256": "dcd3af655e6f3edc873778d2c7b21af33ae285fb88bcc7f87109f48cf615f293"},
+    "pd1/translate_wmt-xformer_translate-64-5": {"configurations": 258, "hyperparameters": 4, "fidelities": 282, "sha256": "66a3f31c4853c6b5d49a54b9ad47dd244d36f0f71d2281ad63d131d6738a2dbb"},
+    "pd1/translate_wmt-xformer_translate-64-10": {"configurations": 258, "hyperparameters": 4, "fidelities": 141, "sha256": "bed17248e89d272d3ea1e8f4d94e109e99ce7b159e1c38fbed4b52aa7b647860"}
+  }
+}

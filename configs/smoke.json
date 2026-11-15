@@ -1,0 +1,35 @@
+{
+  "model": {
+    "config_dim": 6,
+    "emsize": 32,
+    "num_heads": 4,
+    "hidden_dim": 64,
+    "n_icl_layers": 2,
+    "num_bars": 64,
+    "icl_backend": "xla"
+  },
+  "optim": {
+    "warmup_steps": 2,
+    "decay_start": 6,
+    "decay_steps": 2
+  },
+  "prior": {
+    "hidden": [
+      8,
+      16
+    ],
+    "table_networks": 64,
+    "table_configs": 16
+  },
+  "data": {
+    "seq_len": 64,
+    "batch_size": 4,
+    "n_steps_max": 16
+  },
+  "run": {
+    "num_steps": 8,
+    "print_every": 1,
+    "val_every": 4,
+    "val_batches": 2
+  }
+}

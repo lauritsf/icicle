@@ -1,0 +1,24 @@
+{
+  "format": "icicle-spec-v1",
+  "model": {
+    "architecture": "icicle",
+    "config_dim": 32,
+    "emsize": 128,
+    "num_heads": 2,
+    "hidden_dim": 256,
+    "n_feat_layers": 1,
+    "n_icl_layers": 6,
+    "num_bars": 1000,
+    "icl_backend": "xla",
+    "ragged": true,
+    "qk_norm": true,
+    "ftpfn_max_curves": 1000,
+    "dtype": "bfloat16",
+    "remat": false,
+    "config_remat": true,
+    "feat_chunk": 512,
+    "ftpfn_random_slots": false,
+    "ftpfn_initialization": "flax"
+  },
+  "step": 79999
+}

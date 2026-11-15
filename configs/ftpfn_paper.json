@@ -1,0 +1,57 @@
+{
+  "model": {
+    "architecture": "ftpfn",
+    "config_dim": 10,
+    "emsize": 512,
+    "num_heads": 4,
+    "hidden_dim": 1024,
+    "n_feat_layers": 0,
+    "n_icl_layers": 6,
+    "num_bars": 1000,
+    "icl_backend": "xla",
+    "ragged": false,
+    "qk_norm": false,
+    "dtype": "float32",
+    "remat": true,
+    "feat_chunk": 0,
+    "ftpfn_max_curves": 1000,
+    "ftpfn_initialization": "pytorch"
+  },
+  "optim": {
+    "peak_lr": 0.0001,
+    "warmup_steps": 20000,
+    "grad_clip": 1.0,
+    "beta2": 0.999
+  },
+  "prior": {
+    "layers": [
+      8,
+      15
+    ],
+    "hidden": [
+      36,
+      149
+    ],
+    "table_networks": 10000,
+    "table_configs": 1,
+    "extensions": "none",
+    "recall_probability": 0.0,
+    "hp_types_poisson": false,
+    "arity_trunc_poisson": false
+  },
+  "data": {
+    "seq_len": 1000,
+    "batch_size": 25,
+    "n_steps_max": 1000
+  },
+  "run": {
+    "num_steps": 80000,
+    "print_every": 100,
+    "val_every": 250,
+    "val_batches": 4,
+    "seed": 0,
+    "checkpoint_dir": null,
+    "checkpoint_every": 10000,
+    "max_checkpoints": null
+  }
+}

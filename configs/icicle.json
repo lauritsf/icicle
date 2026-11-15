@@ -1,0 +1,60 @@
+{
+  "model": {
+    "architecture": "icicle",
+    "config_dim": 32,
+    "emsize": 128,
+    "num_heads": 2,
+    "hidden_dim": 256,
+    "n_feat_layers": 1,
+    "n_icl_layers": 6,
+    "num_bars": 1000,
+    "icl_backend": "xla",
+    "ragged": true,
+    "qk_norm": true,
+    "dtype": "bfloat16",
+    "remat": false,
+    "config_remat": true,
+    "feat_chunk": 512
+  },
+  "optim": {
+    "peak_lr": 0.0024,
+    "warmup_steps": 4000,
+    "decay_start": 72000,
+    "decay_steps": 8000,
+    "grad_clip": 1.0,
+    "beta2": 0.999
+  },
+  "prior": {
+    "layers": [
+      4,
+      8
+    ],
+    "hidden": [
+      36,
+      149
+    ],
+    "table_networks": 500,
+    "table_configs": 64,
+    "extensions": "divergence,noise_tails,quantize",
+    "recall_probability": 0.75,
+    "tail_scale": [
+      0.01,
+      8.0
+    ],
+    "hp_types_poisson": true,
+    "arity_trunc_poisson": true
+  },
+  "data": {
+    "seq_len": 1000,
+    "batch_size": 128,
+    "n_steps_max": 1000
+  },
+  "run": {
+    "num_steps": 80000,
+    "print_every": 200,
+    "val_every": 2000,
+    "val_batches": 4,
+    "seed": 0,
+    "checkpoint_every": 8000
+  }
+}

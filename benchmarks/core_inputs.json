@@ -1,0 +1,18 @@
+{
+  "lcbench_ifbo": {
+    "dataset": "LCBench",
+    "tasks": 35,
+    "inputs": "checks/lcbench_ifbo.json"
+  },
+  "taskset_ifbo": {
+    "dataset": "TaskSet",
+    "tasks": 24,
+    "inputs": "checks/taskset_ifbo.json"
+  },
+  "pd1_ifbo": {
+    "dataset": "PD1",
+    "tasks": 28,
+    "description": "16 task–model–batch-size combinations, with four fidelity resolutions for four combinations.",
+    "inputs": "checks/pd1_ifbo.json"
+  }
+}

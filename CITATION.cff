@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite ICICLE when using this software or its model weights."
+type: software
+title: "ICICLE: In-Context Inference for Curve-Learning Extrapolation"
+authors:
+  - family-names: Fredsgaard
+    given-names: Laurits
+  - family-names: Andersen
+    given-names: Michael Riis
+  - family-names: Schmidt
+    given-names: Mikkel N.
+license: MIT

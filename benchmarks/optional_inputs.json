@@ -1,0 +1,80 @@
+{
+  "arlbench_mean": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance averaged over the provided training seeds.",
+    "inputs": "checks/arlbench_mean.json"
+  },
+  "arlbench_seed0": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance for training seed 0.",
+    "inputs": "checks/arlbench_seed0.json"
+  },
+  "arlbench_seed1": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance for training seed 1.",
+    "inputs": "checks/arlbench_seed1.json"
+  },
+  "arlbench_seed2": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance for training seed 2.",
+    "inputs": "checks/arlbench_seed2.json"
+  },
+  "arlbench_seed3": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance for training seed 3.",
+    "inputs": "checks/arlbench_seed3.json"
+  },
+  "arlbench_seed4": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance for training seed 4.",
+    "inputs": "checks/arlbench_seed4.json"
+  },
+  "arlbench_seed5": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance for training seed 5.",
+    "inputs": "checks/arlbench_seed5.json"
+  },
+  "arlbench_seed6": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance for training seed 6.",
+    "inputs": "checks/arlbench_seed6.json"
+  },
+  "arlbench_seed7": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance for training seed 7.",
+    "inputs": "checks/arlbench_seed7.json"
+  },
+  "arlbench_seed8": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance for training seed 8.",
+    "inputs": "checks/arlbench_seed8.json"
+  },
+  "arlbench_seed9": {
+    "dataset": "ARLBench",
+    "tasks": 42,
+    "description": "Performance for training seed 9.",
+    "inputs": "checks/arlbench_seed9.json"
+  },
+  "qtmeta": {
+    "dataset": "Meta-Album",
+    "tasks": 86,
+    "description": "Training curves with time-based fidelity.",
+    "inputs": "checks/qtmeta.json"
+  },
+  "qtmeta_epoch": {
+    "dataset": "Meta-Album",
+    "tasks": 86,
+    "description": "Training curves with epoch-based fidelity.",
+    "inputs": "checks/qtmeta_epoch.json"
+  }
+}

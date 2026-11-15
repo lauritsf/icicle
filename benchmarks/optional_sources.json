@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "suites": {
+    "arlbench": {
+      "source": "https://huggingface.co/datasets/autorl-org/arlbench",
+      "revision": "b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c",
+      "license": "BSD-3-Clause",
+      "assets": [
+        {
+          "path": "arlbench/landscapes/atari_battle_zone_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/atari_battle_zone_dqn.csv",
+          "bytes": 2569013,
+          "sha256": "8cd30637b2e69764ecbcf85e39335ad7573088e4c070819fa5011cbf493601cf"
+        },
+        {
+          "path": "arlbench/landscapes/atari_battle_zone_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/atari_battle_zone_ppo.csv",
+          "bytes": 2782345,
+          "sha256": "b480c90ed7ebfcbfd517f955d843a0ca7810bfff7fc903fa025c6c436cd648bc"
+        },
+        {
+          "path": "arlbench/landscapes/atari_double_dunk_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/atari_double_dunk_dqn.csv",
+          "bytes": 2629084,
+          "sha256": "698c003fcf31f8db97bdebcb71a95849f092299a3a2be04fbb9ace0037000aa7"
+        },
+        {
+          "path": "arlbench/landscapes/atari_double_dunk_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/atari_double_dunk_ppo.csv",
+          "bytes": 2786359,
+          "sha256": "6f64b5a67ebe62c5146c8c9e1310afa6b36383531da12b40d020f07616ebebe2"
+        },
+        {
+          "path": "arlbench/landscapes/atari_phoenix_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/atari_phoenix_dqn.csv",
+          "bytes": 2595906,
+          "sha256": "e4b957e44793548b3ffb92c5acfa156e0792c1de80d467666971c5ea181fa2bf"
+        },
+        {
+          "path": "arlbench/landscapes/atari_phoenix_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/atari_phoenix_ppo.csv",
+          "bytes": 2755655,
+          "sha256": "a559cc67881cabf422156808cbc8aea0593300f3b510cf0c44011d50f28e8bd1"
+        },
+        {
+          "path": "arlbench/landscapes/atari_qbert_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/atari_qbert_dqn.csv",
+          "bytes": 2562656,
+          "sha256": "f8ec050ffcf73ca10463b85301d6b64ff0cc78654bc2a34911bfff6e08a6ee07"
+        },
+        {
+          "path": "arlbench/landscapes/atari_qbert_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/atari_qbert_ppo.csv",
+          "bytes": 2730631,
+          "sha256": "5817ed1481758a5c3c79bbac2a5a52b344f202db265ef3e7ccc56152ca6c7d51"
+        },
+        {
+          "path": "arlbench/landscapes/atari_this_game_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/atari_this_game_dqn.csv",
+          "bytes": 2573517,
+          "sha256": "ca1823aa04e057e048aa72bb050c250467b5759fff81af8e38d8930aef2b1588"
+        },
+        {
+          "path": "arlbench/landscapes/atari_this_game_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/atari_this_game_ppo.csv",
+          "bytes": 2736501,
+          "sha256": "e4830bd6a66f6b2846434349cd869538669353a56c5b38fd779cfbe7c1426e47"
+        },
+        {
+          "path": "arlbench/landscapes/box2d_bipedal_walker_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/box2d_bipedal_walker_ppo.csv",
+          "bytes": 2718222,
+          "sha256": "14ff6d7d0bd21465ea62a9998e724636b881d6cf40d14d68f3a892e71eaba4c3"
+        },
+        {
+          "path": "arlbench/landscapes/box2d_bipedal_walker_sac.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/box2d_bipedal_walker_sac.csv",
+          "bytes": 2360099,
+          "sha256": "59de34a81bab86ab2491089d5c0b1a761ebc4582017853ef29188994d161016c"
+        },
+        {
+          "path": "arlbench/landscapes/box2d_continuous_lunar_lander_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/box2d_continuous_lunar_lander_ppo.csv",
+          "bytes": 2756415,
+          "sha256": "bab6dfd9ad968cd0c8f96192ab0504d66d849308e3a3e31767bc5cbef2eb61e0"
+        },
+        {
+          "path": "arlbench/landscapes/box2d_continuous_lunar_lander_sac.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/box2d_continuous_lunar_lander_sac.csv",
+          "bytes": 2354239,
+          "sha256": "5f6594d990c6a6014444e04e4250328fd783efb5df3aa5acc3917407e23d80f9"
+        },
+        {
+          "path": "arlbench/landscapes/box2d_lunar_lander_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/box2d_lunar_lander_dqn.csv",
+          "bytes": 2533219,
+          "sha256": "77ade131956f240697eef45a37f6c1a9ae6f3a61031e4ca42d3d80a5f5149049"
+        },
+        {
+          "path": "arlbench/landscapes/box2d_lunar_lander_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/box2d_lunar_lander_ppo.csv",
+          "bytes": 2756036,
+          "sha256": "fecda7f33de263e0be34e987676030ec55a6af86a40f15da4f5fac2807ae6270"
+        },
+        {
+          "path": "arlbench/landscapes/brax_ant_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/brax_ant_ppo.csv",
+          "bytes": 2837418,
+          "sha256": "66fee35a7cd2e37c46f6aaedc42c22876f8c8efcb7a937ba1bbe77f6150c7835"
+        },
+        {
+          "path": "arlbench/landscapes/brax_ant_sac.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/brax_ant_sac.csv",
+          "bytes": 2407175,
+          "sha256": "aeb1759e838adaae5b766c379cc487d5c4e29e35e5c74b030ee537892b821dcc"
+        },
+        {
+          "path": "arlbench/landscapes/brax_halfcheetah_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/brax_halfcheetah_ppo.csv",
+          "bytes": 2795602,
+          "sha256": "d29ba69d2c745cb81eda4566d79849887a87b30812833d63f46302b72432b3c9"
+        },
+        {
+          "path": "arlbench/landscapes/brax_halfcheetah_sac.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/brax_halfcheetah_sac.csv",
+          "bytes": 2417203,
+          "sha256": "d1e2c4ae04e9c3f0d9dd3a4ab508193f95ebcf7128eca8c8240d36fad3072db8"
+        },
+        {
+          "path": "arlbench/landscapes/brax_hopper_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/brax_hopper_ppo.csv",
+          "bytes": 2818556,
+          "sha256": "d217dfba744c3394e1e811fbf2a1f4d5b2ec8e64bf77402b996973787dd93755"
+        },
+        {
+          "path": "arlbench/landscapes/brax_hopper_sac.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/brax_hopper_sac.csv",
+          "bytes": 2408993,
+          "sha256": "50942606c5dd73136951ed1ac980671bae8e3d8738440eb76f1d8c8e69d66cff"
+        },
+        {
+          "path": "arlbench/landscapes/brax_humanoid_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/brax_humanoid_ppo.csv",
+          "bytes": 2838826,
+          "sha256": "60d411ddf568dab656f150ebcee6c10fce89ac77c30da57ffb47824f16662a10"
+        },
+        {
+          "path": "arlbench/landscapes/brax_humanoid_sac.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/brax_humanoid_sac.csv",
+          "bytes": 2398993,
+          "sha256": "7573015a12592867925c999f3f6b8958f15db007955bbe510ead7cd8744f1c79"
+        },
+        {
+          "path": "arlbench/landscapes/cc_acrobot_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/cc_acrobot_dqn.csv",
+          "bytes": 2481350,
+          "sha256": "822f3a07e0174f3fc414ea6a68765b181c3302d95690591512a23216e672f257"
+        },
+        {
+          "path": "arlbench/landscapes/cc_acrobot_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/cc_acrobot_ppo.csv",
+          "bytes": 2748824,
+          "sha256": "18a34599b5260b8e848d9e5a0d197b7f380bcd6d8fd6772c36acad2b8f25db9c"
+        },
+        {
+          "path": "arlbench/landscapes/cc_cartpole_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/cc_cartpole_dqn.csv",
+          "bytes": 2492164,
+          "sha256": "b27c1f0f4d9d9015c1282951cfb87413464aa4d832b2d7bf87a8e92f8df10b6b"
+        },
+        {
+          "path": "arlbench/landscapes/cc_cartpole_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/cc_cartpole_ppo.csv",
+          "bytes": 2706543,
+          "sha256": "78816846e49b76d3ec35ccb38d85371476fdca86baec44722e3ea64b3b9630b8"
+        },
+        {
+          "path": "arlbench/landscapes/cc_continuous_mountain_car_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/cc_continuous_mountain_car_ppo.csv",
+          "bytes": 2753893,
+          "sha256": "afb062cb6865c2e22227d7f03872f5879df760812149946da6918dd1d4aaad9e"
+        },
+        {
+          "path": "arlbench/landscapes/cc_continuous_mountain_car_sac.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/cc_continuous_mountain_car_sac.csv",
+          "bytes": 2322487,
+          "sha256": "20c11acd3fde18254901e2f5ef441f0d5142c5c7dcdea5a37b2e85246289f449"
+        },
+        {
+          "path": "arlbench/landscapes/cc_mountain_car_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/cc_mountain_car_dqn.csv",
+          "bytes": 2462126,
+          "sha256": "0048c62bbe7cfa4b39b2048710209d41ca2a695231c9cd9fc061a76975eed050"
+        },
+        {
+          "path": "arlbench/landscapes/cc_mountain_car_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/cc_mountain_car_ppo.csv",
+          "bytes": 2685237,
+          "sha256": "81fa31a8ed517790207a095e8a1926a13b29140f3b45b80376600302ca9bb253"
+        },
+        {
+          "path": "arlbench/landscapes/cc_pendulum_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/cc_pendulum_ppo.csv",
+          "bytes": 2858685,
+          "sha256": "b1848cf48ef35d2488580c88747e059cbac2e9fce2d0006929916ae42743ded6"
+        },
+        {
+          "path": "arlbench/landscapes/cc_pendulum_sac.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/cc_pendulum_sac.csv",
+          "bytes": 2405309,
+          "sha256": "616ce616356cb04141fbd49a6ffd4b7ee3221dc450e4b4ff1f88d29f448f1f54"
+        },
+        {
+          "path": "arlbench/landscapes/minigrid_door_key_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/minigrid_door_key_dqn.csv",
+          "bytes": 2405779,
+          "sha256": "c853791c8457f9ee57eaf253949d6ba9e8ee922406e35fb10f1926e0c5cd4f8f"
+        },
+        {
+          "path": "arlbench/landscapes/minigrid_door_key_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/minigrid_door_key_ppo.csv",
+          "bytes": 2626180,
+          "sha256": "f29f618cfd4fc0a01e57f62920182b63151c88a7477ee116d5549f883b82d5d9"
+        },
+        {
+          "path": "arlbench/landscapes/minigrid_empty_random_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/minigrid_empty_random_dqn.csv",
+          "bytes": 2391800,
+          "sha256": "6a22e610b13b91744dedc9373e355e973f9d765c69628c03fc1e2448fff491fb"
+        },
+        {
+          "path": "arlbench/landscapes/minigrid_empty_random_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/minigrid_empty_random_ppo.csv",
+          "bytes": 2706041,
+          "sha256": "c895dca616f1f95a8415101eec66e57bf3cbc986bd66c940c83fd64b03d7c4e1"
+        },
+        {
+          "path": "arlbench/landscapes/minigrid_four_rooms_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/minigrid_four_rooms_dqn.csv",
+          "bytes": 2441564,
+          "sha256": "5ebfba5d244aca317c8f5139fb37a7517760fbc0095c8fbce295717295083b00"
+        },
+        {
+          "path": "arlbench/landscapes/minigrid_four_rooms_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/minigrid_four_rooms_ppo.csv",
+          "bytes": 2688899,
+          "sha256": "8c25604f59f3d9d291b99b5cf6ad65aebbe57b6bfb2ec2913e63cb92b07f2f8a"
+        },
+        {
+          "path": "arlbench/landscapes/minigrid_unlock_dqn.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/minigrid_unlock_dqn.csv",
+          "bytes": 2402374,
+          "sha256": "d3f628941db60be1552c3b3696d9c37bb21275b50bb3507699d377e3e8f5ab09"
+        },
+        {
+          "path": "arlbench/landscapes/minigrid_unlock_ppo.csv",
+          "url": "https://huggingface.co/datasets/autorl-org/arlbench/resolve/b23ab1c4ccbd9a7366561a3de4c61ceca6f8a13c/landscapes/minigrid_unlock_ppo.csv",
+          "bytes": 2605515,
+          "sha256": "ad8c69a747b00d7fa501c38a71bf89b75a711af11552f5e51914b69e5793c6a4"
+        }
+      ]
+    },
+    "qtmeta": {
+      "source": "https://github.com/sebastianpinedaar/hpo-data",
+      "revision": "6b9b6f54aeaad010760bba8f16ca0f070adcd63c",
+      "documentation": "https://github.com/machinelearningnuremberg/QuickTune",
+      "license": null,
+      "assets": [
+        {
+          "path": "qtmeta/raw/dataset-meta-features.zip",
+          "url": "https://raw.githubusercontent.com/sebastianpinedaar/hpo-data/6b9b6f54aeaad010760bba8f16ca0f070adcd63c/dataset-meta-features.zip",
+          "bytes": 6200142,
+          "sha256": "2104eebd6b15790b7376606f708407e9cd861780fedf1271ae92c4b24e039ee5",
+          "extract_prefix": "dataset-meta-features"
+        },
+        {
+          "path": "qtmeta/raw/extended.zip",
+          "url": "https://raw.githubusercontent.com/sebastianpinedaar/hpo-data/6b9b6f54aeaad010760bba8f16ca0f070adcd63c/extended.zip",
+          "bytes": 10042106,
+          "sha256": "e27cd8fcf26cd51fbeeaabd00f6439f1a8e7c78422c5ae52100adbeb3d8e6b38",
+          "extract_prefix": "extended"
+        },
+        {
+          "path": "qtmeta/raw/micro.zip",
+          "url": "https://raw.githubusercontent.com/sebastianpinedaar/hpo-data/6b9b6f54aeaad010760bba8f16ca0f070adcd63c/micro.zip",
+          "bytes": 21066068,
+          "sha256": "001b59d2cc0c16e93df972a98834072aa8bc3b4e79a8988e2f7ec201677f81fb",
+          "extract_prefix": "micro"
+        },
+        {
+          "path": "qtmeta/raw/mini.zip",
+          "url": "https://raw.githubusercontent.com/sebastianpinedaar/hpo-data/6b9b6f54aeaad010760bba8f16ca0f070adcd63c/mini.zip",
+          "bytes": 17167177,
+          "sha256": "06bc326eb4102f7c3b40e3e2c625713c6d616cabde5f24fac105456e75e6c77e",
+          "extract_prefix": "mini"
+        }
+      ]
+    }
+  }
+}
